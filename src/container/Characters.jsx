@@ -20,7 +20,7 @@ const Characters = () => {
 
   if(loading)
     return <div text="loading">Loading.....</div>;
-  return <div><ManyCharacters characters= {characters}/></div>;
+  return <div>Twin Peaks<ManyCharacters characters= {characters}/></div>;
 };
 
 export default Characters;

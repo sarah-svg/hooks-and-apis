@@ -15,14 +15,14 @@ function ListTv({ actor }) {
   );
 }
 
-// ListTv.propTypes = {
-//   actor: PropTypes.arrayOf(PropTypes.shape({
-//     id: PropTypes.number,
-//     name: PropTypes.string,
-//     country: PropTypes.string,
-//     image: PropTypes.string
-//   })).isRequired
-// };
+ListTv.propTypes = {
+  actor: PropTypes.arrayOf(PropTypes.shape({
+    id: PropTypes.number,
+    name: PropTypes.string,
+    country: PropTypes.string,
+    image: PropTypes.object
+  })).isRequired
+};
 
 export default ListTv;
 

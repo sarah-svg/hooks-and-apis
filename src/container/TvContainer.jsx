@@ -12,11 +12,11 @@ const TvContainer = () => {
       setloading(false);
     });
   }, []);
-  console.log(tv);
+
 
   if(loading) return; 
   <div text="loading"></div>;
-  return <ListTv actor={tv}/>
+  return <div>Tv Show<ListTv actor={tv}/></div>
   ;
 };
 
